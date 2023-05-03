@@ -1,0 +1,108 @@
+.hero {
+  background: url(https://tinyurl.com/mrjfx666) no-repeat center/cover;
+  width: 100%;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.hero p {
+  text-align: center;
+}
+
+.hero p:nth-child(1) {
+  font-size: 4rem;
+}
+
+.hero p:nth-child(2) {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgb(247, 244, 244);
+}
+
+.selection {
+  width: 230px;
+  height: 300px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.selection_menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.selection_menu span {
+  background-color: black;
+
+  padding: 1px;
+}
+
+.selection_menu h5 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.selection_menu div {
+  width: 100%;
+  cursor: pointer;
+}
+
+.selection_menu div:nth-child(1) {
+  border-top-left-radius: 20px;
+}
+
+.selection_menu div:nth-child(3) {
+  border-top-right-radius: 20px;
+}
+
+.selection_menu div:hover {
+  background-color: rgb(94, 194, 94);
+}
+
+.selection input {
+  padding: 7px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 10px;
+  border: 1px solid rgb(160, 154, 154);
+  width: 200px;
+}
+
+.selection label {
+  font-size: 0.9rem;
+}
+
+.selection_container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form_distance {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form_hourly {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.selection button {
+  padding: 8px 10px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.selection button:hover {
+  background-color: rgb(62, 60, 60);
+}
+
+@media screen and (max-width: 720px) {
+}

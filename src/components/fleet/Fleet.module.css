@@ -1,0 +1,45 @@
+.fleet {
+  max-width: 1200px;
+  margin: auto;
+  padding: 3rem 1rem;
+}
+
+.header {
+  display: flex;
+}
+
+.header p:nth-child(1) {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-right: 80px;
+}
+
+.header p:nth-child(2) {
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.slider {
+  padding: 5rem 2rem;
+}
+
+.card {
+  margin: 0.5rem;
+  border-radius: 10px;
+  box-shadow: -4px 0px 21px -2px rgba(0, 0, 0, 0.75);
+}
+
+.card img {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 842px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+}
